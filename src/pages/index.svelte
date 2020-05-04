@@ -1,5 +1,5 @@
 <script>
-    import RoutifyIntro from './example/_components/RoutifyIntro.svelte'
+import Slider from './_componentes/Slider.svelte'
 </script>
 
-<RoutifyIntro />
+<Slider/>
