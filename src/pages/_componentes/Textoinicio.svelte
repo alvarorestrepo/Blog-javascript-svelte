@@ -7,11 +7,9 @@
 <style>
   p {
     text-align: justify;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
   }
-  .contenedor {
-    margin: 50px;
-  }
+  
   .titulo {
     font-size: 4.5rem;
   }
@@ -26,7 +24,7 @@
   <strong>JavaScript</strong>
 </h1>
 
-<div class="contenedor">
+<Container>
 
   <Row>
 
@@ -74,17 +72,17 @@
     </Col>
   </Row>
 
-</div>
-<div class="contenedor">
+</Container>
+<Container>
   <img src={js1} alt="" width="100%" />
-</div>
+</Container>
 
-<div class="contenedor">
+<Container>
   <h1 class="titulo1" align="center">
     <strong>¿Qué es un framework de JavaScript?</strong>
   </h1>
-</div>
-<div class="contenedor">
+</Container>
+<Container>
   <Row>
     <Col>
       <p>
@@ -133,4 +131,4 @@
       </p>
     </Col>
   </Row>
-</div>
+</Container>
