@@ -1,7 +1,16 @@
 <script>
- let angular = '/img/angular.png'
+  import { Col, Row } from "sveltestrap";
+  import Footer from '../_componentes/Footer.svelte'
+  import Texto from '../_componentes/Textoangular.svelte'
+  let angular = "/img/angular1.png";
 </script>
 
-<h1>angular</h1>
+<Row>
+  <Col>
+    <img src={angular} width="100%"  alt="angular" />
+  </Col>
+</Row>
 
-<img src={angular} width="500px" alt="ddd">
+<Texto/>
+
+<Footer/>

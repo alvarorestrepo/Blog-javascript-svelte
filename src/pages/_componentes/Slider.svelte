@@ -7,8 +7,8 @@
   } from 'sveltestrap';
 
     let img1 = '/img/web.jpg'
-    let img2 = '/img/web3.jpg'
-    let img3 = '/img/web2.jpg'
+    let img2 = '/img/web3.1.jpg'
+    let img3 = '/img/web2.1.jpg'
 
   const items =[
       img1 ,
@@ -32,9 +32,3 @@
   <CarouselControl direction="prev" bind:activeIndex {items} />
   <CarouselControl direction="next" bind:activeIndex {items} />
 </Carousel>
-
-<style>
-.d-block{
-  height: 600px;
-}
-</style>
