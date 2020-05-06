@@ -1,6 +1,6 @@
 <script>
-import {Col, Row, Container} from 'sveltestrap'
-let imgan = '/img/reactp.png'
+  import { Col, Row, Container } from "sveltestrap";
+  let imgan = "/img/vuep.png";
 </script>
 
 <style>
@@ -16,8 +16,6 @@ let imgan = '/img/reactp.png'
 
 <br />
 
-
-
 <Container>
 
   <Row>
@@ -27,15 +25,11 @@ let imgan = '/img/reactp.png'
     </Col>
     <Col xs="12" sm="6">
       <p>
-        Es un lenguaje ligero e interpretado, orientado a objetos con funciones
-        de primera clase, más conocido como el lenguaje de script para páginas
-        web, pero también usado en muchos entornos sin navegador, tales como
-        node.js, Apache CouchDB y Adobe Acrobat. Es un lenguaje script
-        multi-paradigma, basado en prototipos, dinámico, soporta estilos de
-        programación funcional, orientada a objetos e imperativa. Esta sección
-        de la web está dedicada netamente al lenguaje JavaScript, y no a las
-        partes que son específicas de las páginas web u otros entornos de
-        servidor.
+        Vue es un framework open source de JavaScript, el cual nos permite
+        construir interfaces de usuarios de una forma muy sencilla. La curva de
+        aprendizaje, desde mi punto de vista, es relativamente baja, claro,
+        debes conocer muy bien JavaScript, saber trabajar con callbacks,
+        promesas, objetos, entre otros temas más.
       </p>
     </Col>
 
@@ -44,14 +38,9 @@ let imgan = '/img/reactp.png'
   <Row>
     <Col>
       <p>
-        Desde el 2012, todos los navegadores modernos soportan completamente
-        ECMAScript 5.1. Los navegadores más antiguos soportan por lo menos
-        ECMAScript 3. El 17 de Julio de 2015, ECMA International publicó la
-        sexta versión de ECMAScript, la cual es oficialmente llamada ECMAScript
-        2015, y fue inicialmente nombrada como ECMAScript 6 o ES6. Desde
-        entonces, los estándares ECMAScript están en ciclos de lanzamiento
-        anuales. Esta documentación se reere a la última versión del borrador,
-        que actualmente es ECMAScript 2019.
+        Si queremos hacer uso de Vue no será necesario instalar absolutamente
+        nada en nuestra computadora, sí así lo deseamos podemos utilizar este
+        framework mediante un CDN.
       </p>
     </Col>
 
@@ -59,9 +48,26 @@ let imgan = '/img/reactp.png'
   <Row>
     <Col>
       <p>
-        JavaScript no debe ser confundido con el lenguaje de programación Java.
-        Ambos "Java" y "Javascript" son marcas registradas de Oracle en Estados
-        Unidos y otros países. Sin embargo, los dos lenguajes de programa
+        Vue fue creado por Evan You ex trabajador de Google, quien, es
+        importante mencionar, fue desarrollador Angular. Vue fue lanzado en el
+        año 2014. Aunque inicialmente fue pensado para ser un biblioteca
+        personal, la comunidad hizo que el proyecto creciera a un ritmo
+        impresionante, posicionándolo hoy en día como uno de los Frameworks web
+        más populares, junto con Angular y React.
+      </p>
+    </Col>
+  </Row>
+  <Row>
+    <Col>
+      <p>
+        Una de las características más importantes de Vue es el trabajo con
+        componentes. Un componente Vue, en términos simples, es un elemento el
+        cual se encapsula código reutilizable. Dentro de un componente podremos
+        encontrar etiquetas HTML, estilos de CSS y código JavaScript. Los
+        componentes nos permiten desarrollar proyectos modularizados y fáciles
+        de escalar, si nosotros así lo deseamos podemos reemplazar un componente
+        por otro de una forma muy sencilla, como si de piezas de lego se
+        tratasen.
       </p>
     </Col>
   </Row>
@@ -70,18 +76,20 @@ let imgan = '/img/reactp.png'
 
 <Container>
   <h1 class="titulo1" align="center">
-    <strong>¿Qué es un framework de JavaScript?</strong>
+    <strong>Su popularidad</strong>
   </h1>
 </Container>
 <Container>
   <Row>
     <Col>
       <p>
-        En modo general, los frameworks o marcos de trabajo, son proyectos que
-        aglutinan bibliotecas de código y patrones de diseño avanzados, y sirven
-        como base para el desarrollo de aplicaciones diversas. En el caso de los
-        frameworks Javascript, sirven para el desarrollo de la parte frontend de
-        una web.
+        Sin duda Vue tiene características muy interesantes, pero, seamos
+        sinceros, Vue no ha inventado nada nuevo, de hecho, todo lo que hemos
+        mencionado los podemos encontrar en otros Frameworks Web, entonces ¿Por
+        qué es tan popular? La respuesta es relativamente sencilla. Vue es
+        popular por que ha sabido tomar e implementar lo mejor que tienen otros
+        frameworks web y ha sabido desechar todo lo que no le aporta valor al
+        producto.
       </p>
     </Col>
   </Row>
@@ -89,37 +97,16 @@ let imgan = '/img/reactp.png'
   <Row>
     <Col>
       <p>
-        La clave de un framework no es tanto que te ofrezca una cantidad enorme
-        de funcionalidad ya lista, con implementaciones de piezas comunes en
-        aplicaciones web, sino que están pensados para ofrecer al equipo de
-        trabajo un esquema de desarrollo sólido. Los frameworks están pensados
-        para obligar al desarrollador, en mayor o menor medida, a trabajar de un
-        modo específico, que está probado facilita la creación de aplicaciones
-        complejas, con un código fácilmente mantenible.
+        A diferencias de otros frameworks web, en donde ya encontramos muchos
+        features listo para ser usados con Vue esto no es así, pero no nos
+        preocupes, podemos ir agregando funcionalidad de terceros a nuestro
+        proyecto según nuestras necesidades, esto tiene ventajas, por ejemplo,
+        tenemos mayor control sobre qué se utiliza, además, que el tamaño de
+        nuestra aplicación será considerablemente menor que el de otros
+        frameworks out of the box, lo cual sin duda mejora la velocidad de
+        nuestra página web.
       </p>
     </Col>
   </Row>
 
-  <Row>
-    <Col>
-      <p>
-        En Javascript el uso de frameworks está ampliamente extendido y todos
-        ellos ofrecen a los desarrolladores la posibilidad de trabajo con vistas
-        (capa de presentación) a las cuales introducir fácilmente valores que
-        vienen de la capa de datos. Mediante las vistas es fácil y práctico
-        generar el HTML del lado del cliente, con datos puros que se entregan
-        del lado del servidor.
-      </p>
-    </Col>
-  </Row>
-
-  <Row>
-    <Col>
-      <p>
-        una encuesta realizada por statesofjs en el 2019 muestra el estado de
-        los frameworks que actualmente marcan lo que el mercado necesita
-        <a  href="https://2019.stateofjs.com/" target="_blank">encuesta</a>.
-      </p>
-    </Col>
-  </Row>
 </Container>
