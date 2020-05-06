@@ -1,6 +1,6 @@
 <script>
   import { Col, Row } from "sveltestrap";
-  import Footer from '../_componentes/Footer.svelte'
+  import Texto from "../_componentes/Textoreact.svelte"
   let react = "/img/react1.png";
 </script>
 
@@ -10,4 +10,4 @@
   </Col>
 </Row>
 
-<Footer/>
+<Texto/>

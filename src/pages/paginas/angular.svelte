@@ -1,6 +1,5 @@
 <script>
   import { Col, Row } from "sveltestrap";
-  import Footer from '../_componentes/Footer.svelte'
   import Texto from '../_componentes/Textoangular.svelte'
   let angular = "/img/angular1.png";
 </script>
@@ -13,4 +12,4 @@
 
 <Texto/>
 
-<Footer/>
+

@@ -1,17 +1,14 @@
 <script>
-import {Col, Row} from 'sveltestrap'
-let imgan = '/img/'
+import {Col, Row, Container} from 'sveltestrap'
+let imgan = '/img/reactp.png'
 </script>
 
 <style>
   p {
     text-align: justify;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
   }
-  .contenedor {
-    margin: 50px;
-  }
- 
+
   .titulo1 {
     font-size: 3.5rem;
   }
@@ -21,7 +18,7 @@ let imgan = '/img/'
 
 
 
-<div class="contenedor">
+<Container>
 
   <Row>
 
@@ -69,14 +66,14 @@ let imgan = '/img/'
     </Col>
   </Row>
 
-</div>
+</Container>
 
-<div class="contenedor">
+<Container>
   <h1 class="titulo1" align="center">
     <strong>¿Qué es un framework de JavaScript?</strong>
   </h1>
-</div>
-<div class="contenedor">
+</Container>
+<Container>
   <Row>
     <Col>
       <p>
@@ -125,4 +122,4 @@ let imgan = '/img/'
       </p>
     </Col>
   </Row>
-</div>
+</Container>

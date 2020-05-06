@@ -1,6 +1,6 @@
 <script>
-import {Col, Row,Container} from 'sveltestrap'
-let imgan = '/img/angularp.png'
+  import { Col, Row, Container } from "sveltestrap";
+  let imgan = "/img/angularp.png";
 </script>
 
 <style>
@@ -8,16 +8,13 @@ let imgan = '/img/angularp.png'
     text-align: justify;
     font-size: 1.3rem;
   }
-  
-  
+
   .titulo1 {
     font-size: 3.5rem;
   }
 </style>
 
 <br />
-
-
 
 <Container>
 
@@ -28,15 +25,12 @@ let imgan = '/img/angularp.png'
     </Col>
     <Col xs="12" sm="6">
       <p>
-        Es un lenguaje ligero e interpretado, orientado a objetos con funciones
-        de primera clase, más conocido como el lenguaje de script para páginas
-        web, pero también usado en muchos entornos sin navegador, tales como
-        node.js, Apache CouchDB y Adobe Acrobat. Es un lenguaje script
-        multi-paradigma, basado en prototipos, dinámico, soporta estilos de
-        programación funcional, orientada a objetos e imperativa. Esta sección
-        de la web está dedicada netamente al lenguaje JavaScript, y no a las
-        partes que son específicas de las páginas web u otros entornos de
-        servidor.
+        AngularJS es Javascript. Es un proyecto de código abierto, realizado en
+        Javascript que contiene un conjunto de librerías útiles para el
+        desarrollo de aplicaciones web y propone una serie de patrones de diseño
+        para llevarlas a cabo. En pocas palabras, es lo que se conoce como un
+        framework para el desarrollo, en esta caso sobre el lenguaje Javascript
+        con programación del lado del cliente.
       </p>
     </Col>
 
@@ -45,44 +39,33 @@ let imgan = '/img/angularp.png'
   <Row>
     <Col>
       <p>
-        Desde el 2012, todos los navegadores modernos soportan completamente
-        ECMAScript 5.1. Los navegadores más antiguos soportan por lo menos
-        ECMAScript 3. El 17 de Julio de 2015, ECMA International publicó la
-        sexta versión de ECMAScript, la cual es oficialmente llamada ECMAScript
-        2015, y fue inicialmente nombrada como ECMAScript 6 o ES6. Desde
-        entonces, los estándares ECMAScript están en ciclos de lanzamiento
-        anuales. Esta documentación se reere a la última versión del borrador,
-        que actualmente es ECMAScript 2019.
+        Puedes encontrar el proyecto de AngularJS en su propio sitio web:
+        AngularJS, Superheroic JavaScript MVW Framework. Al ser un proyecto de
+        código abierto cualquier persona con un poco de curiosidad echar un
+        vistazo con profundidad y ver cómo se ha escrito, incluso admiten
+        colaboraciones de desarrolladores que quiera aportar cosas.
       </p>
     </Col>
 
-  </Row>
-  <Row>
-    <Col>
-      <p>
-        JavaScript no debe ser confundido con el lenguaje de programación Java.
-        Ambos "Java" y "Javascript" son marcas registradas de Oracle en Estados
-        Unidos y otros países. Sin embargo, los dos lenguajes de programa
-      </p>
-    </Col>
   </Row>
 
 </Container>
 
 <Container>
   <h1 class="titulo1" align="center">
-    <strong>¿Qué es un framework de JavaScript?</strong>
+    <strong>Mejoras del HTML</strong>
   </h1>
 </Container>
 <Container>
   <Row>
     <Col>
       <p>
-        En modo general, los frameworks o marcos de trabajo, son proyectos que
-        aglutinan bibliotecas de código y patrones de diseño avanzados, y sirven
-        como base para el desarrollo de aplicaciones diversas. En el caso de los
-        frameworks Javascript, sirven para el desarrollo de la parte frontend de
-        una web.
+        Este Javascript pretende que los programadores mejoren el HTML que
+        hacen. Que puedan producir un HTML que, de manera declarativa, genere
+        aplicaciones que sean fáciles de entender incluso para alguien que no
+        tiene conocimientos profundos de informática. El objetivo es producir un
+        HTML altamente semántico, es decir, que cuando lo leas entiendas de
+        manera clara qué es lo que hace o para qué sirve cada cosa.
       </p>
     </Col>
   </Row>
@@ -90,13 +73,11 @@ let imgan = '/img/angularp.png'
   <Row>
     <Col>
       <p>
-        La clave de un framework no es tanto que te ofrezca una cantidad enorme
-        de funcionalidad ya lista, con implementaciones de piezas comunes en
-        aplicaciones web, sino que están pensados para ofrecer al equipo de
-        trabajo un esquema de desarrollo sólido. Los frameworks están pensados
-        para obligar al desarrollador, en mayor o menor medida, a trabajar de un
-        modo específico, que está probado facilita la creación de aplicaciones
-        complejas, con un código fácilmente mantenible.
+        Lógicamente, AngularJS viene cargado con todas las herramientas que los
+        creadores ofrecen para que los desarrolladores sean capaces de crear ese
+        HTML enriquecido. La palabra clave que permite ese HTML declarativo en
+        AngularJS es "directiva", que no es otra cosa que código Javascript que
+        mejora el HTML.
       </p>
     </Col>
   </Row>
@@ -104,12 +85,13 @@ let imgan = '/img/angularp.png'
   <Row>
     <Col>
       <p>
-        En Javascript el uso de frameworks está ampliamente extendido y todos
-        ellos ofrecen a los desarrolladores la posibilidad de trabajo con vistas
-        (capa de presentación) a las cuales introducir fácilmente valores que
-        vienen de la capa de datos. Mediante las vistas es fácil y práctico
-        generar el HTML del lado del cliente, con datos puros que se entregan
-        del lado del servidor.
+        Puedes usar el que viene con AngularJS y el que han hecho terceros
+        desarrolladores, puesto que muchas personas están contribuyendo con
+        pequeños proyectos -independientes del propio framework- para enriquecer
+        el panorama de directivas disponibles. Hasta este punto serás un
+        "consumidor de directivas", y nalmente cuando vayas tomando experiencia
+        serás capaz de convertirte en un "productor de directivas",
+        enriqueciendo tú mismo las herramientas para mejorar tu propio HTML.
       </p>
     </Col>
   </Row>
@@ -117,9 +99,14 @@ let imgan = '/img/angularp.png'
   <Row>
     <Col>
       <p>
-        una encuesta realizada por statesofjs en el 2019 muestra el estado de
-        los frameworks que actualmente marcan lo que el mercado necesita
-        <a  href="https://2019.stateofjs.com/" target="_blank">encuesta</a>.
+        Promueve patrones de diseño adecuados para aplicaciones web Angular
+        promueve y usa patrones de diseño de software. En concreto implementa lo
+        que se llama MVC, aunque en una variante muy extendida en el mundo de
+        Javascript que luego comentaremos con más detalle. Básicamente estos
+        patrones nos marcan la separación del código de los programas
+        dependiendo de su responsabilidad. Eso permite repartir la lógica de la
+        aplicación por capas, lo que resulta muy adecuado para aplicaciones de
+        negocio y para las aplicaciones SPA (Single Page Aplication).
       </p>
     </Col>
   </Row>

@@ -1,17 +1,14 @@
 <script>
-import {Col, Row} from 'sveltestrap'
-let imgan = '/img/'
+  import { Col, Row, Container } from "sveltestrap";
+  let imgan = "/img/reactp.png";
 </script>
 
 <style>
   p {
     text-align: justify;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
   }
-  .contenedor {
-    margin: 50px;
-  }
- 
+
   .titulo1 {
     font-size: 3.5rem;
   }
@@ -19,9 +16,7 @@ let imgan = '/img/'
 
 <br />
 
-
-
-<div class="contenedor">
+<Container>
 
   <Row>
 
@@ -30,15 +25,12 @@ let imgan = '/img/'
     </Col>
     <Col xs="12" sm="6">
       <p>
-        Es un lenguaje ligero e interpretado, orientado a objetos con funciones
-        de primera clase, más conocido como el lenguaje de script para páginas
-        web, pero también usado en muchos entornos sin navegador, tales como
-        node.js, Apache CouchDB y Adobe Acrobat. Es un lenguaje script
-        multi-paradigma, basado en prototipos, dinámico, soporta estilos de
-        programación funcional, orientada a objetos e imperativa. Esta sección
-        de la web está dedicada netamente al lenguaje JavaScript, y no a las
-        partes que son específicas de las páginas web u otros entornos de
-        servidor.
+        React es una librería Javascript focalizada en el desarrollo de
+        interfaces de usuario. Así se dene la propia librería y evidentemente,
+        esa es su principal área de trabajo. Sin embargo, lo cierto es que en
+        React encontramos un excelente aliado para hacer todo tipo de
+        aplicaciones web, SPA (Single Page Application) o incluso aplicaciones
+        para móviles.
       </p>
     </Col>
 
@@ -47,14 +39,9 @@ let imgan = '/img/'
   <Row>
     <Col>
       <p>
-        Desde el 2012, todos los navegadores modernos soportan completamente
-        ECMAScript 5.1. Los navegadores más antiguos soportan por lo menos
-        ECMAScript 3. El 17 de Julio de 2015, ECMA International publicó la
-        sexta versión de ECMAScript, la cual es oficialmente llamada ECMAScript
-        2015, y fue inicialmente nombrada como ECMAScript 6 o ES6. Desde
-        entonces, los estándares ECMAScript están en ciclos de lanzamiento
-        anuales. Esta documentación se reere a la última versión del borrador,
-        que actualmente es ECMAScript 2019.
+        Para ello, alrededor de React existe un completo ecosistema de módulos,
+        herramientas y componentes capaces de ayudar al desarrollador a cubrir
+        objetivos avanzados con relativamente poco esfuerzo.
       </p>
     </Col>
 
@@ -62,29 +49,35 @@ let imgan = '/img/'
   <Row>
     <Col>
       <p>
-        JavaScript no debe ser confundido con el lenguaje de programación Java.
-        Ambos "Java" y "Javascript" son marcas registradas de Oracle en Estados
-        Unidos y otros países. Sin embargo, los dos lenguajes de programa
+        Por tanto, React representa una base sólida sobre la cual se puede
+        construir casi cualquier cosa con Javascript. Además facilita mucho el
+        desarrollo, ya que nos ofrece muchas cosas ya listas, en las que no
+        necesitamos invertir tiempo de trabajo. En este artículo te ampliaremos
+        esta información, aportando además diversos motivos por los que usar
+        React como librería del lado del cliente.
       </p>
     </Col>
   </Row>
 
-</div>
+</Container>
 
-<div class="contenedor">
+<Container>
   <h1 class="titulo1" align="center">
-    <strong>¿Qué es un framework de JavaScript?</strong>
+    <strong>Un poco de historia</strong>
   </h1>
-</div>
-<div class="contenedor">
+</Container>
+<Container>
   <Row>
     <Col>
       <p>
-        En modo general, los frameworks o marcos de trabajo, son proyectos que
-        aglutinan bibliotecas de código y patrones de diseño avanzados, y sirven
-        como base para el desarrollo de aplicaciones diversas. En el caso de los
-        frameworks Javascript, sirven para el desarrollo de la parte frontend de
-        una web.
+        React es una librería desarrollada inicialmente por Facebook. Es
+        software libre y a partir de su liberación acapara una creciente
+        comunidad de desarrolladores y entusiastas. Su creación se realizó en
+        base a unas necesidades concretas, derivadas del desarrollo de la web de
+        la popular red social. Además de facilitar el desarrollo ágil de
+        componentes de interfaces de usuario, el requisito principal con el que
+        nació React era ofrecer un elevado rendimiento, mayor que otras
+        alternativas existentes en el mercado.
       </p>
     </Col>
   </Row>
@@ -92,13 +85,11 @@ let imgan = '/img/'
   <Row>
     <Col>
       <p>
-        La clave de un framework no es tanto que te ofrezca una cantidad enorme
-        de funcionalidad ya lista, con implementaciones de piezas comunes en
-        aplicaciones web, sino que están pensados para ofrecer al equipo de
-        trabajo un esquema de desarrollo sólido. Los frameworks están pensados
-        para obligar al desarrollador, en mayor o menor medida, a trabajar de un
-        modo específico, que está probado facilita la creación de aplicaciones
-        complejas, con un código fácilmente mantenible.
+        Detectaron que el típico marco de binding y doble binding ralentizaba un
+        poco su aplicación, debido a la cantidad de conexiones entre las vistas
+        y los datos. Como respuesta crearon una nueva dinámica de
+        funcionamiento, en la que optimizaron la forma como las vistas se
+        renderizaban frente al cambio en los datos de la aplicación.
       </p>
     </Col>
   </Row>
@@ -106,12 +97,29 @@ let imgan = '/img/'
   <Row>
     <Col>
       <p>
-        En Javascript el uso de frameworks está ampliamente extendido y todos
-        ellos ofrecen a los desarrolladores la posibilidad de trabajo con vistas
-        (capa de presentación) a las cuales introducir fácilmente valores que
-        vienen de la capa de datos. Mediante las vistas es fácil y práctico
-        generar el HTML del lado del cliente, con datos puros que se entregan
-        del lado del servidor.
+        A partir de ahí la probaron en su red social con resultados positivos y
+        luego en Instagram, también propiedad de Facebook. Más adelante, después
+        de su liberación y alentados por los positivos resultados en el
+        rendimiento de React, muchas otras aplicaciones web de primer nivel la
+        fueron adoptando. BBC, Airbnb, Netix, Dropbox y un largo etc.
+      </p>
+    </Col>
+  </Row>
+
+</Container>
+
+<Container>
+  <h1 class="titulo1" align="center">
+    <strong>Cuál es el objetivo de React</strong>
+  </h1>
+</Container>
+<Container>
+  <Row>
+    <Col>
+      <p>
+        Sirve para desarrollar aplicaciones web de una manera más ordenada y con menos código que si usas Javascript
+puro o librerías como jQuery centradas en la manipulación del DOM. Permite que las vistas se asocien
+con los datos, de modo que si cambian los datos, también cambian las vistas.
       </p>
     </Col>
   </Row>
@@ -119,10 +127,49 @@ let imgan = '/img/'
   <Row>
     <Col>
       <p>
-        una encuesta realizada por statesofjs en el 2019 muestra el estado de
-        los frameworks que actualmente marcan lo que el mercado necesita
-        <a  href="https://2019.stateofjs.com/" target="_blank">encuesta</a>.
+       Detectaron que el típico marco de binding y doble binding ralentizaba un poco su aplicación, debido a la
+cantidad de conexiones entre las vistas y los datos. Como respuesta crearon una nueva dinámica de funcionamiento,
+en la que optimizaron la forma como las vistas se renderizaban frente al cambio en los datos de
+la aplicación.
       </p>
     </Col>
   </Row>
-</div>
+
+  
+</Container>
+
+<Container>
+  <h1 class="titulo1" align="center">
+    <strong>Qué es el Virtual DOM</strong>
+  </h1>
+</Container>
+<Container>
+  <Row>
+    <Col>
+      <p>
+        A lo largo del Manual de React volveremos varias veces sobre el concepto de "Virtual DOM", que es una de
+las principales características de React. De momento, en líneas generales podemos decir que el virtual DOM
+es una representación del DOM pero en memoria, que usa React para aumentar sensiblemente el rendimiento
+de los componentes y aplicaciones front-end.
+      </p>
+    </Col>
+  </Row>
+
+  <Row>
+    <Col>
+      <p>
+      El Virtual DOM se basa en una idea bastante sencilla e ingeniosa. Básicamente hace que, cuando se actualiza
+una vista, React se encargue de actualizar el DOM Virtual, que es mucho más rápido que actualizar el DOM
+del navegador (DOM real). Cuando React compara el DOM Virtual con el DOM del navegador sabe perfectamente
+qué partes de la página debe actualizar y se ahorra la necesidad de actualizar la vista entera. Es algo
+muy potente, pero que se hace de manera transparente para el desarrollador, que no necesita intervenir en
+nada para alcanzar ese mayor rendimiento de la aplicación.
+      </p>
+    </Col>
+  </Row>
+
+  
+</Container>
+
+
+
