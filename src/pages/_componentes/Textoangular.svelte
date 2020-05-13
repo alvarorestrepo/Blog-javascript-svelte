@@ -4,6 +4,9 @@
 </script>
 
 <style>
+.zoom:hover{
+  width: 200%
+}
   p {
     text-align: justify;
     font-size: 1.3rem;
@@ -21,7 +24,7 @@
   <Row>
 
     <Col xs="12" sm="6">
-      <img src={imgan} alt="" width="100%" />
+      <img class="zoom" src={imgan} alt="" width="100%" />
     </Col>
     <Col xs="12" sm="6">
       <p>

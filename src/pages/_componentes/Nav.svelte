@@ -42,27 +42,27 @@
 
       <li class="nav-item">
         <a class="nav-link" href={$url('./paginas/inicio')}>
-          <strong>Inicio</strong>
+          Inicio
         </a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href={$url('./paginas/angular')}>
-          <strong>Angular</strong>
+          Angular
         </a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href={$url('./paginas/react')}>
-          <strong>React</strong>
+          React
         </a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href={$url('./paginas/vue')}>
-          <strong>Vue</strong>
+          Vue
         </a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href={$url('./paginas/svelte')}>
-          <strong>Svelte</strong>
+          Svelte
         </a>
       </li>
 

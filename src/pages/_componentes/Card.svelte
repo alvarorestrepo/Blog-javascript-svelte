@@ -37,8 +37,9 @@
     margin-bottom: 20px
   }
   .boton:hover{
-    height: 280px;
-      width: 280px;
+    /* height: 280px;
+      width: 280px; */
+       box-shadow: 6px 6px 20px rgb(136, 134, 134);
       transition-duration: 0.5s;
   }
 </style>
