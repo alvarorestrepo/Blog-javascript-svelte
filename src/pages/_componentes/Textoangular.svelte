@@ -1,19 +1,18 @@
 <script>
   import { Col, Row, Container } from "sveltestrap";
-  let imgan = "/img/angularp.png";
+  import Img from "../_componentes/Img.svelte"
+  let img = '/img/angularp.png'
 </script>
 
 <style>
-.zoom:hover{
-  width: 200%
-}
+
   p {
     text-align: justify;
     font-size: 1.3rem;
   }
 
   .titulo1 {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
   }
 </style>
 
@@ -23,9 +22,9 @@
 
   <Row>
 
-    <Col xs="12" sm="6">
-      <img class="zoom" src={imgan} alt="" width="100%" />
-    </Col>
+ 
+      <Img {img}/>
+    
     <Col xs="12" sm="6">
       <p>
         AngularJS es Javascript. Es un proyecto de código abierto, realizado en

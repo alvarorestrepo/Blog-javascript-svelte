@@ -1,4 +1,5 @@
 <script>
+
   import {
     Carousel,
     CarouselControl,
@@ -17,8 +18,10 @@
   ];
   let activeIndex = 0;
 </script>
+<br>
+<br>
 
-<Carousel {items} bind:activeIndex>
+<Carousel  {items} bind:activeIndex>
   <CarouselIndicators bind:activeIndex {items} />
 
   <div class="carousel-inner">

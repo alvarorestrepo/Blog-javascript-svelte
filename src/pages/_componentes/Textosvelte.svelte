@@ -1,6 +1,7 @@
 <script>
   import { Col, Row, Container } from "sveltestrap";
-  let imgan = "/img/sveltep.png";
+  import Img from '../_componentes/Img.svelte'
+  let img = "/img/sveltep.png";
 </script>
 
 <style>
@@ -14,7 +15,7 @@
     margin-top: 5px;
   }
   .titulo1 {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
   }
 </style>
 
@@ -24,9 +25,7 @@
 
   <Row>
 
-    <Col xs="12" sm="6">
-      <img src={imgan} alt="" width="100%" />
-    </Col>
+    <Img {img}/>
     <Col xs="12" sm="6">
       <p>
         SvelteJS es el nuevo chico del barrio que empieza a tener algo de

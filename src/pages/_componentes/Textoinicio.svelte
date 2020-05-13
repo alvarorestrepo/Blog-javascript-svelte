@@ -1,6 +1,7 @@
 <script>
   import { Col, Container, Row } from "sveltestrap";
-  let js = "/img/js.png";
+  import Img from '../_componentes/Img.svelte';
+  let img = "/img/js.png";
   let js1 = "/img/js1.png";
 </script>
 
@@ -11,10 +12,10 @@
   }
   
   .titulo {
-    font-size: 4.5rem;
+    font-size: 4.3rem;
   }
   .titulo1 {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
   }
 </style>
 
@@ -28,9 +29,7 @@
 
   <Row>
 
-    <Col xs="12" sm="6">
-      <img src={js} alt="" width="100%" />
-    </Col>
+    <Img {img}/>
     <Col xs="12" sm="6">
       <p>
         Es un lenguaje ligero e interpretado, orientado a objetos con funciones

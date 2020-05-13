@@ -1,6 +1,7 @@
 <script>
   import { Col, Row, Container } from "sveltestrap";
-  let imgan = "/img/vuep.png";
+  import Img from '../_componentes/Img.svelte'
+  let img = "/img/vuep.png";
 </script>
 
 <style>
@@ -10,7 +11,7 @@
   }
 
   .titulo1 {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
   }
 </style>
 
@@ -20,9 +21,7 @@
 
   <Row>
 
-    <Col xs="12" sm="6">
-      <img src={imgan} alt="" width="100%" />
-    </Col>
+    <Img {img}/>
     <Col xs="12" sm="6">
       <p>
         Vue es un framework open source de JavaScript, el cual nos permite

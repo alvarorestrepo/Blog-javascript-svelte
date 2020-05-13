@@ -4,6 +4,7 @@
   import Card from '../_componentes/Card.svelte'
 </script>
 
+
 <Slider />
 
 <Texto/>

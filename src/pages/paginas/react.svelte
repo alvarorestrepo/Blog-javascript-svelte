@@ -3,6 +3,11 @@
   import Texto from "../_componentes/Textoreact.svelte"
   let react = "/img/react1.png";
 </script>
+<style>
+img{
+  margin-top: 50px;
+}
+</style>
 
 <Row>
   <Col>
