@@ -5,9 +5,9 @@
 </script>
 
 <style>
-img{
+/* img{
   margin-top: 50px;
-}
+} */
 </style>
 
 <Row>

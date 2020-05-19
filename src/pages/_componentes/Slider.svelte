@@ -18,8 +18,8 @@
   ];
   let activeIndex = 0;
 </script>
-<br>
-<br>
+<!-- <br>
+<br> -->
 
 <Carousel  {items} bind:activeIndex>
   <CarouselIndicators bind:activeIndex {items} />

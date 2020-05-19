@@ -5,9 +5,9 @@
 <style>
   .navbar {
     padding: 0.1rem 1rem;
-    position: fixed;
+    /* position: fixed;
     z-index: 1;
-    width: 100%;
+    width: 100%; */
   }
   .nav-link {
     font-size: 1.3rem;

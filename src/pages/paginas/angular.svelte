@@ -4,9 +4,9 @@
   let angular = "/img/angular1.png";
 </script>
 <style>
-img{
+/* img{
   margin-top: 50px;
-}
+} */
 </style>
 
 <Row>
