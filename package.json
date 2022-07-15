@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "@sveltech/routify": "^1.5.9",
-    "svelte": "^3.22.2",
+    "svelte": "^3.49.0",
     "sveltestrap": "^3.3.3"
   }
 }
